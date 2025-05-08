@@ -19,7 +19,7 @@
 
 .body1{
     font-family: var(--fuente-Web-Index);
-    background-image: url(fondo.jpg);
+    background-image: fondo.jpg;
     background-repeat: no-repeat, no-repeat;
     background-position:bottom center;
     background-size: cover;
