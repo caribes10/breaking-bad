@@ -63,7 +63,7 @@ img{
 .bodyform{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    background-image: url(fondo.jpg);
+    background-image: fondo.jpg;
     background-repeat: no-repeat, no-repeat;
     background-position:bottom center;
     background-size: cover;
@@ -165,7 +165,7 @@ p{
     background-color: black;
 }
 #Ha{
-   background-image: url(hankschrader.png);
+   background-image: hankschrader.png;
    
    background-repeat: no-repeat;
    background-position: center;
