@@ -1,0 +1,176 @@
+/*Incorporacion de la fuente personalizada*/
+@font-face { 
+    font-family: 'BreakinBad';
+    src: url('Breaking\ Bad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Para crear la variable*/
+:root {   /*root es el contenedor principal, lo hereda todo el documento a no ser que especifique en concreto*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 36px;
+    
+    --fuente-Web-Index: 'BreakinBad', serif; 
+
+}
+
+.body1{
+    font-family: var(--fuente-Web-Index);
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position:bottom center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#logo{
+    margin: auto;
+    margin-bottom: 2rem;
+    background-image: url(img/logo.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#fraseppal{
+    color: white;
+    text-align: center;
+}
+
+.poster{
+    margin:auto;
+    margin-top: 2rem;
+    width: 700px;
+    height: 300px;
+    border-style: outset;
+    border-color: brown;
+    border-width: 10px;
+    border-radius: 22px;
+}
+
+img{
+    width: 700px;
+    height: 300px;
+}
+/*PARTE DEL CSS PARA EL FORMULARIO*/
+.bodyform{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position:bottom center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+#tituloform{
+    text-align: center;
+}
+
+:required:valid, textarea:valid{
+        
+}
+:required:invalid, textarea:invalid{
+       
+}
+
+
+/*PARTE DEL CSS PARA LA TABLA*/
+.tabbody{
+    background-color:#637124;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+table{
+    margin: auto;
+}
+
+table,tr,td{
+
+    border: 10px solid black;
+    border-collapse: collapse;
+
+
+}
+
+td{
+    padding: 0;
+    width: 80px;
+    height: 70px;
+}
+td img{
+    margin-right: 5px;
+    margin-left: 5px;
+    width:70px ;
+    height: 70px;
+    
+
+}
+
+h2{
+    margin:0;
+    padding: 0;
+    font-size: 40px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+.tr1{
+    background-color: #B8DC16;
+    padding: 0;
+    margin: 0;
+}
+.tr2{
+    background-color: #D5E87E;
+    padding: 0;
+    margin: 0;
+}
+.tr3{
+    background-color: #EFF7C7;
+    padding: 0;
+    margin: 0; 
+}
+.tr4{
+    background-color: #808B54;
+}
+.tr5{
+    background-color: #BCC49F;
+}
+.tr6{
+    background-color:#C5E24B;
+}
+.tr7{
+    background-color:#637028;
+}
+.tr8{
+    background-color:#89A419;
+}
+.tr9{
+    background-color: #C5C42C;
+}
+
+.vacio{
+    background-color: black;
+}
+#Ha{
+   background-image: url(IMG/TablaPeriódica/hankschrader.png);
+   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100%;
+}
+#Ma{
+    background-color: #AB8FCC;
+}

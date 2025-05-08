@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png"> <!--Para introducir el favicon-->
+    <link rel="stylesheet" href="Actividad2.css" type="text/css" media="all"> <!--Para "llamar" al CSS Externo correspondient a esta pagina web-->
+    <title>Formulario</title>
+</head>
+<body class="bodyform">
+    <h2 id="tituloform">Breaking Bad - Que comience el juego!</h2>
+    <form name="Breaking Bad - Que comience el juego!" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+            (*)Nombre:<input type="text" required >
+            <br>
+            <br>(*)Apellidos:<input type="text" required>
+            <br>
+            <br>Dni: <input type="text">
+            <br>
+            <br>(*)Correo Electronico: <input type="email" required>
+            <br>
+            <br>Fecha de Nacimiento: <input type="date">
+            <br>
+            <br>Selecciona tu género:
+            <br><input type="radio" name="genero" value="HOMBRE">Hombre
+            <br><input type="radio" name="genero" value="MUJER">Mujer
+            
+            <fieldset>
+                <legend>Dirección Postal</legend>
+                Calle: <input type="text">
+                <br> Número: <input type="number">
+                <br>Piso: <input type="text">
+                <br>Código Postal: <input type="number">
+                <br>Ciudad: <input type="text">
+            </fieldset>
+
+            <br>Selecciona uno de los siguientes personajes:
+            <select name="sistemas">
+                <option value="1">Jessie Pinkman</option>
+                <option value="2">Walter White</option>
+                <option value="4">Saul Goodman</option>
+                <option value="5">Gustavo Fring</option>
+                <option value="6">Pollos Hermanos</option>
+                <option value="7">Otros personajes</option>
+             </select>
+            
+
+            <fieldset>
+                <legend>Comentario</legend>
+                <textarea placeholder="Escribe aquí un comentario..."></textarea>
+            </fieldset>
+
+            <br><input type="file" name="adjunto" accept=".pdf" multiple>
+            <br><input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+        </fieldset> 
+
+    </form>
+    
+</body>
+</html>
